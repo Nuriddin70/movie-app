@@ -1,9 +1,15 @@
+import Footer from "./layout/Footer";
+import Header from "./layout/Header";
+import Main from "./layout/Main";
 
 
 function App() {
   return (
     <div>
-     haloo
+    <Header />
+    <Main />
+    <Footer />
+    
     </div>
   );
 }
