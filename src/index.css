@@ -19,3 +19,19 @@ code {
 .contetn{
   min-height: calc(100vh - 64px - 70px);
 }
+
+.movies{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+label:not(:last-child) {
+  margin-right: 1rem;
+}
